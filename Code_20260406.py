@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TOKEN = os.environ.get("8299162168:AAEeYddTVCQ6V3Dyn6vedSJGgXBFfeWDTK0")
 if not TOKEN:
     log.error("TELEGRAM_BOT_TOKEN не установлен!")
     sys.exit(1)
